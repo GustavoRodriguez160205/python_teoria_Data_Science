@@ -1,6 +1,6 @@
-# Curso de Python para Data Science
+# Curso de Python para Inteligencia Artificial
 
-Bienvenido al curso de Python orientado a Data Science. Este curso está diseñado para llevarte desde los conceptos básicos de Python hasta técnicas avanzadas de análisis de datos, machine learning y visualización.
+Este curso está diseñado para llevarte desde los fundamentos de Python hasta el desarrollo de modelos avanzados de Inteligencia Artificial (IA), incluyendo redes neuronales, deep learning y técnicas de machine learning.
 
 ## Estructura del Curso
 
@@ -18,64 +18,66 @@ Bienvenido al curso de Python orientado a Data Science. Este curso está diseña
   - Lectura y escritura de archivos
   - Manejo de archivos CSV y JSON
 
-### Módulo 2: Bibliotecas para Data Science
-- **Semana 4: NumPy**
-  - Introducción a NumPy
-  - Arreglos y operaciones con arreglos
+### Módulo 2: Herramientas para la Inteligencia Artificial
+- **Semana 4: NumPy y Pandas**
+  - Arreglos y operaciones con NumPy
+  - Manipulación de datos con Pandas: Series y DataFrames
 
-- **Semana 5: Pandas**
-  - Estructuras de datos en Pandas: Series y DataFrames
-  - Manipulación de datos: filtrado, agrupamiento y combinaciones
-
-- **Semana 6: Matplotlib y Seaborn**
+- **Semana 5: Matplotlib y Seaborn**
   - Visualización de datos con Matplotlib
   - Gráficos estadísticos con Seaborn
 
-### Módulo 3: Análisis de Datos
-- **Semana 7: Limpieza de Datos**
-  - Identificación y tratamiento de valores nulos
-  - Transformación de datos
+- **Semana 6: Scikit-learn**
+  - Fundamentos de Scikit-learn para machine learning
+  - Modelos básicos: regresión, clasificación y clustering
 
-- **Semana 8: Análisis Exploratorio de Datos (EDA)**
-  - Estadísticas descriptivas
-  - Visualización de datos exploratorios
-
-### Módulo 4: Introducción al Machine Learning
-- **Semana 9: Fundamentos de Machine Learning**
+### Módulo 3: Fundamentos de Machine Learning
+- **Semana 7: Fundamentos de Machine Learning**
   - Tipos de aprendizaje (supervisado y no supervisado)
-  - Introducción a scikit-learn
+  - Evaluación de modelos de machine learning
 
-- **Semana 10: Modelos de Regresión**
-  - Regresión lineal
-  - Evaluación de modelos
-
-- **Semana 11: Clasificación**
+- **Semana 8: Regresión y Clasificación**
+  - Algoritmos de regresión (lineal, polinómica)
   - Algoritmos de clasificación (KNN, SVM, árboles de decisión)
+
+- **Semana 9: Técnicas Avanzadas de Machine Learning**
   - Validación cruzada y ajuste de hiperparámetros
+  - Random Forests y Boosting
 
-### Módulo 5: Proyectos Finales
-- **Semana 12: Proyecto de Análisis de Datos**
-  - Aplicación de técnicas aprendidas en un conjunto de datos real
-  - Presentación de resultados
+### Módulo 4: Redes Neuronales y Deep Learning
+- **Semana 10: Introducción a las Redes Neuronales**
+  - Conceptos básicos de redes neuronales
+  - Implementación de redes neuronales simples con Python
 
+- **Semana 11: Deep Learning con TensorFlow y Keras**
+  - Introducción a TensorFlow y Keras
+  - Creación de modelos de deep learning con Keras
+
+- **Semana 12: Redes Neuronales Convolucionales (CNN)**
+  - Aplicación de CNNs para el procesamiento de imágenes
+  - Implementación de una CNN en Keras
+
+### Módulo 5: Proyectos Finales de IA
 - **Semana 13: Proyecto de Machine Learning**
-  - Desarrollo de un modelo predictivo
-  - Evaluación y presentación del modelo
+  - Desarrollo de un modelo de machine learning basado en datos reales
+  - Evaluación y optimización del modelo
 
-## Recursos Recomendados
-- [Documentación de Python](https://docs.python.org/3/)
-- [NumPy Documentation](https://numpy.org/doc/)
-- [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/)
-- [Matplotlib Documentation](https://matplotlib.org/stable/contents.html)
-- [Seaborn Documentation](https://seaborn.pydata.org/)
-- [Scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html)
+- **Semana 14: Proyecto de Deep Learning**
+  - Implementación de una red neuronal profunda para un problema real
+  - Entrenamiento, evaluación y ajuste del modelo
 
 ## Instalación de Entorno
-Para seguir este curso, necesitarás instalar Python y las bibliotecas necesarias. Aquí tienes una guía rápida:
 
-1. **Instalar Python**: Descarga desde [python.org](https://www.python.org/downloads/)
-2. **Instalar pip**: Normalmente se instala con Python, pero puedes verificar ejecutando `pip --version` en la terminal.
-3. **Instalar bibliotecas**: Ejecuta el siguiente comando en la terminal:
+Para poder seguir este curso, necesitarás instalar Python y algunas bibliotecas especializadas en machine learning e inteligencia artificial. A continuación, te indicamos cómo instalar todo lo necesario.
 
-   ```bash
-   pip install numpy pandas matplotlib seaborn scikit-learn
+### Paso 1: Instalar Python
+
+Descarga la última versión de Python desde la página oficial: [python.org](https://www.python.org/downloads/).
+
+### Paso 2: Verificar pip
+
+Python ya incluye pip, el gestor de paquetes de Python. Verifica que pip esté instalado correctamente ejecutando el siguiente comando en la terminal:
+
+```bash
+pip --version
+
