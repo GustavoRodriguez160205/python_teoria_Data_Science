@@ -52,4 +52,29 @@ print(calc_long(listaPrueba))
 
 ############################################################
 
-# 4-
+# 4- Definir una función inversa() que calcule la inversión de una cadena. Por ejemplo la cadena "estoy probando" debería devolver la cadena "odnaborp yotse"
+
+def invertirCadena(cadena):
+    convertirCadena = cadena[::-1]
+    print(f'La cadena invertida es: {convertirCadena}')
+
+
+cadena = input('Por favor ingresa un mensaje en minúsculas: ').lower()
+invertirCadena(cadena)
+
+#############################################################
+
+# 5- Definir una función es_palindromo() que reconoce palíndromos (es decir, palabras que tienen el mismo aspecto escritas invertidas), ejemplo: es_palindromo ("radar") tendría que devolver True.
+
+
+def palindromo(cadena):
+    cadena = cadena.lower()
+    cadena1 = cadena[::-1]
+
+    return cadena == cadena1
+
+print(palindromo('Radar')) # Devuelve True
+print(palindromo('Hola')) # Devuelve False
+
+
+###############################################################
