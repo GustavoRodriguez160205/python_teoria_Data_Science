@@ -24,7 +24,7 @@ def max_de_tres(n1 , n2 , n3):
     elif n3 > n1 and n3 > n2:
         print(f'El tercer número {n3} es mayor a {n1} y {n2}')
 
-max_de_tres(n1 = 23 , n2 = 15 , n3 = 10)
+#max_de_tres(n1 = 23 , n2 = 15 , n3 = 10)
 
 ################################################################
 
@@ -51,3 +51,5 @@ print(calc_long(cadenaPrueba))
 print(calc_long(listaPrueba))
 
 ############################################################
+
+# 4-
