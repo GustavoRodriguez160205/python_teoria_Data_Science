@@ -1,4 +1,4 @@
-# Curso de Python para Inteligencia Artificial
+# Curso de Python para DataScience
 
 Este curso está diseñado para llevarte desde los fundamentos de Python hasta el desarrollo de modelos avanzados de Inteligencia Artificial (IA), incluyendo redes neuronales, deep learning y técnicas de machine learning.
 
