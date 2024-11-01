@@ -17,7 +17,7 @@ while True:
         if entrada.isdigit() or (entrada.startswith('-') and entrada[1:].isdigit()):  
             resultado = int(entrada)  # Convierte la entrada a un entero y lo asigna a resultado
         else:
-            print("Por favor, ingrese un número válido.")  
+            print("Por favor,.ingrese un número válido.")  
             continue  # Vuelve al inicio del bucle
 
     # Solicita al usuario que ingrese una operación
@@ -38,18 +38,18 @@ while True:
 
     # Realiza la operación solicitada
     if op.lower() == "suma":  
-        resultado += n2  # Suma el segundo número al resultado
+        resultado += n2  
     elif op.lower() == "resta":  
-        resultado -= n2  # Resta el segundo número del resultado
+        resultado -= n2  
     elif op.lower() == "multi":  
-        resultado *= n2  # Multiplica el resultado por el segundo número
+        resultado *= n2 
     elif op.lower() == "div":  
-        if n2 == 0:  # Verifica si el segundo número es cero
-            print("No se puede dividir entre cero.")  # Mensaje de error para división por cero
+        if n2 == 0:  # 
+            print("No se puede dividir entre cero.")  
             continue  
         resultado /= n2  # Divide el resultado por el segundo número
     else:
-        print("Operación no válida.")  # Mensaje de error si la operación no es válida
+        print("Operación no válida.")  
         continue  
 
    
